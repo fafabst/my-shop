@@ -4,6 +4,7 @@ const Articles = () => {
     return (<>
         <Header />
         <h2>article</h2>
+
     </>);
 }
 
