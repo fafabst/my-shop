@@ -9,7 +9,7 @@ function App() {
   const [isLogin, setIsLogin] = useState(false)
 
   return (
-    <AppContext.Provider value={{ isLogin }}>
+    <AppContext.Provider value={{ isLogin, setIsLogin }}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
