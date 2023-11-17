@@ -1,32 +1,26 @@
-import React from 'react';
-import {
-    MDBContainer,
-    MDBInput,
-    MDBCheckbox,
-    MDBBtn,
-    MDBIcon
-}
-    from 'mdb-react-ui-kit';
-import Header from './Header';
+import React, { useContext } from 'react';
+import { MDBContainer, MDBInput, MDBCheckbox, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+import Layout from './layout';
+import { AppContext } from '../App';
 
 const Login = () => {
-    return (<>
-        <Header />
+    const { setIsLogin } = useContext(AppContext)
+    return (
+        <Layout>
         <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
 
-            <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email' />
-            <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password' />
+                <MDBInput wrapperClass='mb-4' label='ایمیل' id='form1' type='email' />
+                <MDBInput wrapperClass='mb-4' label='رمز عبور' id='form2' type='password' />
 
             <div className="d-flex justify-content-between mx-3 mb-4">
-                <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-                <a href="!#">Forgot password?</a>
+                    <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
+                    <a href="!#">فراموشی رمز عبور</a>
             </div>
 
-            <MDBBtn className="mb-4">Sign in</MDBBtn>
+                <MDBBtn onClick={() => setIsLogin(true)} className="mb-4">ورود</MDBBtn>
 
             <div className="text-center">
-                <p>Not a member? <a href="#!">Register</a></p>
-                <p>or sign up with:</p>
+                    <p>هنوز عضو نشدید؟ <a href="#!">ثبت نام</a></p>
 
                 <div className='d-flex justify-content-between mx-auto' style={{ width: '40%' }}>
                     <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
@@ -48,7 +42,8 @@ const Login = () => {
                 </div>
             </div>
 
-        </MDBContainer></>);
+            </MDBContainer>
+        </Layout>);
 }
 
 export default Login;
