@@ -1,0 +1,13 @@
+.showArticle {
+    margin: 20px;
+    display: flexbox;
+    justify-content: right;
+    direction: rtl;
+    align-items: flex-start;
+    width: 1500px;
+
+}
+
+.styles.showArticleForm {
+    width: 1000px;
+}

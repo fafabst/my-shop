@@ -1,0 +1,11 @@
+.oneArticle {
+    width: 15%;
+    margin: 40px;
+    box-shadow: 10px 5px 5px grey;
+
+}
+
+.items {
+    background-color: rgb(196, 195, 195);
+    border: 3px solid rgb(110, 109, 109);
+}
