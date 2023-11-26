@@ -20,8 +20,20 @@ const Layout = ({ children }) => {
                         <Link to="/">
                             <Nav.Link href="#home">خانه</Nav.Link>
                         </Link>
-                        <Link to="/article">
-                            <Nav.Link href="#features">مقاله</Nav.Link>
+                        <Link to="/articles">
+                            <Nav.Link href="#features">مقاله ها</Nav.Link>
+                        </Link>
+                        <Link to="/createarticle">
+                            <Nav.Link href="#features">ساخت مقاله جدید</Nav.Link>
+                        </Link>
+                        <Link to="/catFact">
+                            <Nav.Link href="#features">حقیقت درباره گربه ها</Nav.Link>
+                        </Link>
+                        <Link to="/makeExcuses">
+                            <Nav.Link href="#features">بهانه های پیشنهادی</Nav.Link>
+                        </Link>
+                        <Link to="/exercises">
+                            <Nav.Link href="#features">تمرینات</Nav.Link>
                         </Link>
                     </Nav>
                     <Link to="/login">
