@@ -1,0 +1,13 @@
+.excuseMaker {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.excuseMaker button {
+    background-color: rgba(49, 47, 48, 0.498);
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px gray;
+}
