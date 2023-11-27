@@ -2,8 +2,8 @@ import { createContext } from 'react';
 import { useContext } from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import { AppContext } from '../App';
-import { articleContext } from '../pages/articles';
+import { AppContext } from '../../App';
+import { articleContext } from '../../pages/article/articles';
 import styyles from './oneArticle.module.css'
 
 

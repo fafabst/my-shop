@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import Layout from "../components/layout";
-import { AppContext } from '../App'
+import Layout from "../../components/layout/layout";
+import { AppContext } from '../../App'
 import { Card } from 'antd';
 import styles from "./home.module.css";
 import { auto } from "@popperjs/core";

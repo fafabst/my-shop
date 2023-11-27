@@ -1,9 +1,8 @@
-import Layout from "./layout";
+import Layout from "../layout/layout";
 import { Card, Space } from 'antd';
 import { useContext } from "react";
-import { AppContext } from "../App";
+import { AppContext } from "../../App";
 import { useParams } from "react-router-dom";
-import axios from "axios";
 import { useState, useEffect } from "react";
 
 

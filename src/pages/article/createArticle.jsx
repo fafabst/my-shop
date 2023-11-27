@@ -2,12 +2,12 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import styles from "./createArticle.module.css";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Layout from './../components/layout';
+import Layout from '../../components/layout/layout';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import { useContext } from 'react';
-import { AppContext } from '../App';
+import { AppContext } from '../../App';
 
 
 const CreateArticle = () => {

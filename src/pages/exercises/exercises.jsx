@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import Layout from "../components/layout";
+import Layout from "../../components/layout/layout";
 
 const doubleIt = (n) => {
     for (let i = 0; i < 99999999; i++) { }

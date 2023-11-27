@@ -1,10 +1,9 @@
 
-
 import { createContext, useContext } from "react";
 import { Link } from "react-router-dom";
-import { AppContext } from "../App";
-import Article from "../components/article";
-import Layout from "../components/layout";
+import { AppContext } from "../../App";
+import Article from "../../components/article/article";
+import Layout from "../../components/layout/layout";
 import styles from './articles.module.css'
 export const articleContext = createContext();
 

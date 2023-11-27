@@ -3,10 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import Login from './login';
+import Login from '../login/login';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { AppContext } from '../App';
+import { AppContext } from '../../App';
 
 
 const Layout = ({ children }) => {

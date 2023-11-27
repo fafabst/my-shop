@@ -2,14 +2,15 @@
 import axios from 'axios';
 import { createContext, useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './components/login';
-import ShowArticle from './components/showArticle';
-import Articles from './pages/articles';
-import CatFact from './pages/catFact';
-import CreateArticle from './pages/createArticle';
-import Exercises from './pages/exercises';
-import Home from './pages/home';
-import MakeExcuses from './pages/makeExcuses';
+import Home from './pages/home/home'
+import Login from './components/login/login';
+import Articles from './pages/article/articles';
+import CatFact from './pages/catFacts/catFact';
+import MakeExcuses from './pages/makeExcuses/makeExcuses';
+import Exercises from './pages/exercises/exercises';
+import CreateArticle from './pages/article/createArticle';
+import ShowArticle from './components/article/showArticle'
+
 export const AppContext = createContext();
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
     <AppContext.Provider value={{ isLogin, setIsLogin, articles, setArticles }}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} /> 
           <Route path="/articles" element={<Articles />} />
           <Route path="/login" element={<Login />} />
           <Route path="/catfact" element={<CatFact />} />
@@ -45,6 +46,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </AppContext.Provider>
+
   );
 }
 

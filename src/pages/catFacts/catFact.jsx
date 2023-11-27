@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import Layout from "../components/layout";
+import Layout from "../../components/layout/layout";
 
 const CatFact = () => {
     const [catFact, setCatFact] = useState('');
