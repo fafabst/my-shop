@@ -15,25 +15,25 @@ const Layout = ({ children }) => {
         <>
             <Navbar bg="dark" data-bs-theme="dark" dir="rtl">
                 <Container >
-                    <Navbar.Brand href="#home">خوش آمدید</Navbar.Brand>
+                    <Navbar.Brand href="#home">Welcome </Navbar.Brand>
                     <Nav className="me-auto">
                         <Link to="/">
-                            <Nav.Link href="#home">خانه</Nav.Link>
+                            <Nav.Link href="#home">Home</Nav.Link>
                         </Link>
                         <Link to="/articles">
-                            <Nav.Link href="#features">مقاله ها</Nav.Link>
+                            <Nav.Link href="#features">Articles</Nav.Link>
                         </Link>
                         <Link to="/createarticle">
-                            <Nav.Link href="#features">ساخت مقاله جدید</Nav.Link>
+                            <Nav.Link href="#features">Make New Article</Nav.Link>
                         </Link>
                         <Link to="/catFact">
-                            <Nav.Link href="#features">حقیقت درباره گربه ها</Nav.Link>
+                            <Nav.Link href="#features">Facts About Cats</Nav.Link>
                         </Link>
                         <Link to="/makeExcuses">
-                            <Nav.Link href="#features">بهانه های پیشنهادی</Nav.Link>
+                            <Nav.Link href="#features">Making Excuses</Nav.Link>
                         </Link>
                         <Link to="/exercises">
-                            <Nav.Link href="#features">تمرینات</Nav.Link>
+                            <Nav.Link href="#features">Exercises</Nav.Link>
                         </Link>
                     </Nav>
                     <Link to="/login">

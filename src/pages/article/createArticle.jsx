@@ -47,11 +47,11 @@ const CreateArticle = () => {
             {isLogin ?
                 <div className={styles.createArticleWrapped}>
 
-                    <h3>ساخت مقاله جدید:</h3>
+                    <h3>Make New Article:</h3>
 
                     <InputGroup className="mb-3">
                         <InputGroup.Text id="inputGroup-sizing-default">
-                            عنوان مقاله
+                            Title
                         </InputGroup.Text>
                         <Form.Control onChange={handleChange} name="title"
                             aria-label="Default"
@@ -61,7 +61,7 @@ const CreateArticle = () => {
                     <br />
                     <InputGroup className="mb-3">
                         <InputGroup.Text id="inputGroup-sizing-default">
-                            نویسنده
+                            Author
                         </InputGroup.Text>
                         <Form.Control onChange={handleChange} name="author"
                             aria-label="Default"
@@ -71,7 +71,7 @@ const CreateArticle = () => {
                     <br />
                     <InputGroup className="mb-3">
                         <InputGroup.Text id="inputGroup-sizing-default">
-                            آدرس عکس
+                            Image URL
                         </InputGroup.Text>
                         <Form.Control onChange={handleChange} name="imageUrl"
                             aria-label="Default"
@@ -81,14 +81,14 @@ const CreateArticle = () => {
                     <br />
                     <InputGroup className="mb-3">
                         <InputGroup.Text id="inputGroup-sizing-default">
-                            مدت زمان خواندن
+                            Reading Time
                         </InputGroup.Text>
                         <Form.Control onChange={handleChange} name="readingTime"
                             aria-label="Default"
                             aria-describedby="inputGroup-sizing-default"
                         />
                     </InputGroup>
-                    <h6>متن مقاله:</h6>
+                    <h6>Context:</h6>
                     <FloatingLabel
                         controlId="floatingTextarea2" label="...">
                         <Form.Control onChange={handleChange} name="content"
@@ -98,7 +98,7 @@ const CreateArticle = () => {
                         />
                     </FloatingLabel>
                     <Button onClick={handleCreateArticle} variant="secondary" size="lg" active>
-                        ساخت مقاله
+                        Make Article
                     </Button>
                 </div>
                 : <h2>login first</h2>}
