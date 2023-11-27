@@ -2,70 +2,68 @@
   "articles": [
     {
       "id": 1,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPe-CPWj301jXH3yVOpyidSrxK_7LpgvG-mg&usqp=CAU",
-      "title": "مقاله اول",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfA7LMj_noSWxUG14vw0l9n0UZU2fxB2wsQ&usqp=CAU",
+      "title": "10 Easy Ways to Improve Your Productivity at Work",
       "readingTime": 5,
-      "author": "علی امیری",
-      "content": "  بررسی موانع پژوهشی در هر رشته علمی اهمیت خاصی دارد و می تواند ضعف وکمبودهای آن رشته را نمایان نماید. این مطالعه به منظور بررسی علل استقبال کم اساتید دانشگاه علوم پزشکی کردستان از پژوهش در آموزش از دیدگاه خودشان انجام گرفت.روش ها: این مطالعه مقطعی در سال  در دانشگاه علوم پزشکی کردستان صورت پذیرفت. جامعه مورد مطالعه شامل تمام اعضای هیات علمی دانشگاه علوم پزشکی کردستان بود, روش نمونه گیری به صورت سرشماری بود و ابزار جمع آوری اطلاعات پرسشنامه محقق ساخته بود که در آن اساتید نظرات خود را در مورد مشکلات پژوهش در آموزش بر اساس مقیاس چهارگزینه ای از کاملا مخالف تا کاملا موافق (1 تا 4) اظهار می نمودند. اطلاعات جمع آوری شده با استفاده از آزمون های آمار توصیفی و مربع کای مورد تحلیل قرار گرفت.نتایج: از مجموعه 165 پرسشنامه توزیع شده,  پرسشنامه تکمیل شده و عودت گردید بیش ترین مشکل اظهار شده توسط اساتید تمایل بیش تر اساتید به پژوهش در حیطه کاری خود بود. اساتید با رتبه دانشیاری بیش تر از اساتید با رتبه استادیاری و مربی از پرمشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند  همچنین اساتید بالینی بیش تر از اساتید غیر بالینی از پر مشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند نتیجه گیری: نتایج این مطالعه بیانگر این مساله بود که لازم است تمهیداتی در مورد برگزاری کارگاه های پژوهش در آموزش و در نظر گرفتن امتیازات خاص جهت اساتید برای انجام طرح های پژوهش در آموزش در دانشگاه علوم پزشکی "
+      "author": " Emily Johnson",
+      "content": "  This article by Emily Johnson offers practical advice for professionals seeking to enhance their productivity levels. It provides actionable tips that can be easily incorporated into daily work routines."
     },
     {
       "id": 2,
-      "imageUrl": "https://i.pinimg.com/236x/40/b7/45/40b745e829beef2f14127846a4554a51.jpg",
-      "title": "مقاله دوم",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKjHIYAw_ky1o2G5jdHDIb6CeLiNL-7NsQQ&usqp=CAU",
+      "title": "The Benefits of Mindfulness Meditation for Stress Relief",
       "readingTime": 4,
-      "author": "سحر معینی",
-      "content": "  بررسی موانع پژوهشی در هر رشته علمی اهمیت خاصی دارد و می تواند ضعف وکمبودهای آن رشته را نمایان نماید. این مطالعه به منظور بررسی علل استقبال کم اساتید دانشگاه علوم پزشکی کردستان از پژوهش در آموزش از دیدگاه خودشان انجام گرفت.روش ها: این مطالعه مقطعی در سال  در دانشگاه علوم پزشکی کردستان صورت پذیرفت. جامعه مورد مطالعه شامل تمام اعضای هیات علمی دانشگاه علوم پزشکی کردستان بود, روش نمونه گیری به صورت سرشماری بود و ابزار جمع آوری اطلاعات پرسشنامه محقق ساخته بود که در آن اساتید نظرات خود را در مورد مشکلات پژوهش در آموزش بر اساس مقیاس چهارگزینه ای از کاملا مخالف تا کاملا موافق (1 تا 4) اظهار می نمودند. اطلاعات جمع آوری شده با استفاده از آزمون های آمار توصیفی و مربع کای مورد تحلیل قرار گرفت.نتایج: از مجموعه 165 پرسشنامه توزیع شده,  پرسشنامه تکمیل شده و عودت گردید بیش ترین مشکل اظهار شده توسط اساتید تمایل بیش تر اساتید به پژوهش در حیطه کاری خود بود. اساتید با رتبه دانشیاری بیش تر از اساتید با رتبه استادیاری و مربی از پرمشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند  همچنین اساتید بالینی بیش تر از اساتید غیر بالینی از پر مشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند نتیجه گیری: نتایج این مطالعه بیانگر این مساله بود که لازم است تمهیداتی در مورد برگزاری کارگاه های پژوهش در آموزش و در نظر گرفتن امتیازات خاص جهت اساتید برای انجام طرح های پژوهش در آموزش در دانشگاه علوم پزشکی "
+      "author": "Dr. Michaela Chen",
+      "content": "  Dr. Michaela Chen explores the numerous advantages of mindfulness meditation in combating stress. This article highlights scientific findings and personal anecdotes to encourage readers to embrace mindfulness practices."
     },
     {
       "id": 3,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDavpnb2Wbuqlsedp8rxPBkKXHmaSEnHzkNDZGglD6ROXl1ZaDWF3DX-joPd6002284I8&usqp=CAU",
-      "title": "مقاله سوم",
-      "readingTime": 8,
-      "author": "بهروزعلی محبی",
-      "content": "  بررسی موانع پژوهشی در هر رشته علمی اهمیت خاصی دارد و می تواند ضعف وکمبودهای آن رشته را نمایان نماید. این مطالعه به منظور بررسی علل استقبال کم اساتید دانشگاه علوم پزشکی کردستان از پژوهش در آموزش از دیدگاه خودشان انجام گرفت.روش ها: این مطالعه مقطعی در سال  در دانشگاه علوم پزشکی کردستان صورت پذیرفت. جامعه مورد مطالعه شامل تمام اعضای هیات علمی دانشگاه علوم پزشکی کردستان بود, روش نمونه گیری به صورت سرشماری بود و ابزار جمع آوری اطلاعات پرسشنامه محقق ساخته بود که در آن اساتید نظرات خود را در مورد مشکلات پژوهش در آموزش بر اساس مقیاس چهارگزینه ای از کاملا مخالف تا کاملا موافق (1 تا 4) اظهار می نمودند. اطلاعات جمع آوری شده با استفاده از آزمون های آمار توصیفی و مربع کای مورد تحلیل قرار گرفت.نتایج: از مجموعه 165 پرسشنامه توزیع شده,  پرسشنامه تکمیل شده و عودت گردید بیش ترین مشکل اظهار شده توسط اساتید تمایل بیش تر اساتید به پژوهش در حیطه کاری خود بود. اساتید با رتبه دانشیاری بیش تر از اساتید با رتبه استادیاری و مربی از پرمشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند  همچنین اساتید بالینی بیش تر از اساتید غیر بالینی از پر مشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند نتیجه گیری: نتایج این مطالعه بیانگر این مساله بود که لازم است تمهیداتی در مورد برگزاری کارگاه های پژوهش در آموزش و در نظر گرفتن امتیازات خاص جهت اساتید برای انجام طرح های پژوهش در آموزش در دانشگاه علوم پزشکی "
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHq6QHxFeGJTFGIlpHiCjk8IhvB23TuVoRiA&usqp=CAU",
+      "title": "5 Delicious and Nutritious Smoothie Recipes for a Healthy Start",
+      "readingTime": 3,
+      "author": "Chef Sophia Ramirez",
+      "content": "  Chef Sophia Ramirez shares five quick and easy smoothie recipes that are both healthy and tasty. Each recipe is accompanied by nutritional insights and the benefits of the ingredients used."
     },
     {
       "id": 4,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg4Z7jjj1Bggh8GO7wypLtwqE94Ed2ROrSag&usqp=CAU",
-      "title": "مقاله چهارم",
-      "readingTime": 12,
-      "author": "فرانک شهابی",
-      "content": "  بررسی موانع پژوهشی در هر رشته علمی اهمیت خاصی دارد و می تواند ضعف وکمبودهای آن رشته را نمایان نماید. این مطالعه به منظور بررسی علل استقبال کم اساتید دانشگاه علوم پزشکی کردستان از پژوهش در آموزش از دیدگاه خودشان انجام گرفت.روش ها: این مطالعه مقطعی در سال  در دانشگاه علوم پزشکی کردستان صورت پذیرفت. جامعه مورد مطالعه شامل تمام اعضای هیات علمی دانشگاه علوم پزشکی کردستان بود, روش نمونه گیری به صورت سرشماری بود و ابزار جمع آوری اطلاعات پرسشنامه محقق ساخته بود که در آن اساتید نظرات خود را در مورد مشکلات پژوهش در آموزش بر اساس مقیاس چهارگزینه ای از کاملا مخالف تا کاملا موافق (1 تا 4) اظهار می نمودند. اطلاعات جمع آوری شده با استفاده از آزمون های آمار توصیفی و مربع کای مورد تحلیل قرار گرفت.نتایج: از مجموعه 165 پرسشنامه توزیع شده,  پرسشنامه تکمیل شده و عودت گردید بیش ترین مشکل اظهار شده توسط اساتید تمایل بیش تر اساتید به پژوهش در حیطه کاری خود بود. اساتید با رتبه دانشیاری بیش تر از اساتید با رتبه استادیاری و مربی از پرمشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند  همچنین اساتید بالینی بیش تر از اساتید غیر بالینی از پر مشغله بودن و نداشتن وقت کافی برای ارائه طرح های پژوهش در آموزش شکایت داشتند نتیجه گیری: نتایج این مطالعه بیانگر این مساله بود که لازم است تمهیداتی در مورد برگزاری کارگاه های پژوهش در آموزش و در نظر گرفتن امتیازات خاص جهت اساتید برای انجام طرح های پژوهش در آموزش در دانشگاه علوم پزشکی "
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq35djoXujcup4gv64mL_jWPcNgoaZYCqfzw&usqp=CAU",
+      "title": "The Impact of Regular Exercise on Mental Health",
+      "readingTime": 6,
+      "author": "Dr. David Patel",
+      "content": "Dr. David Patel's article delves into the significant positive effects of regular exercise on mental well-being. Backed by scientific studies, this piece aims to motivate readers to prioritize physical activity for mental health improvement."
     },
     {
+      "id": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsU7oGHnWKx9ct1fhtnzCuoMsq0NONoKZmew&usqp=CAU",
+      "title": "Exploring Sustainable Living: Small Changes for a Greener Future",
+      "readingTime": "7",
+      "author": " Environmentalist Lisa Nguyen",
+      "content": "Lisa Nguyen advocates for sustainable living by suggesting practical and achievable changes in daily habits. This article emphasizes the importance of individual contributions to a more eco-friendly lifestyle."
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWrpiY_V64FODqw5UL2CyVaNXjf9kR6Ko1TA&usqp=CAU ",
+      "title": "Tips for Creating a Relaxing and Inviting Home Environment",
+      "readingTime": "4",
+      "author": "Interior Designer Mark Thompson",
+      "content": "Mark Thompson shares insightful tips on transforming living spaces into relaxing sanctuaries. This article is a guide for those seeking to improve their home environment for better relaxation and comfort."
+    },
+   
+    {
       "id": 7,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDavpnb2Wbuqlsedp8rxPBkKXHmaSEnHzkNDZGglD6ROXl1ZaDWF3DX-joPd6002284I8&usqp=CAU",
-      "title": "مقاله هفتم",
-      "readingTime": "2",
-      "author": "زهرا امیری",
-      "content": "چه عاشقانه با من بازی کردی؛\nو من به همین سادگی‌\nدر پس عاشقانه‌های تو آب شدم\nگاهی باید رفت من و عاشقانه هایم\nبه خانه بر می‌‌گردیم\nتو خوش باش با هزار قناری\nکه بر آسمان دلت پرواز می‌‌کنند\nمی‌ خواهم ببینم\nکجای جهان را خواهی‌ گرفت…."
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRES7r9ZsW3mmKl2F7g7VefbJNlIcol39pTCA&usqp=CAU",
+      "title": "Understanding the Basics of Personal Finance: Budgeting 101",
+      "readingTime": "5",
+      "author": "Financial Advisor Sarah Lewis",
+      "content": "Sarah Lewis simplifies the complexities of personal finance by introducing fundamental budgeting concepts. This article aims to empower readers with basic financial knowledge for better money management."
     },
     {
       "id": 8,
-      "imageUrl": "مقاله هشتم",
-      "title": "مقاله هشتم",
-      "readingTime": "1",
-      "author": "سپهر رامین",
-      "content": "اینجا، در این سرزمین هنوز مرز میان تشخّص و خودبینی مشخّص نشده است و از آنجا که نفوس انسانی از نخستین لحظات شکل‌پذیری‌شان تحقیر و سرکوب می‌شوند، بختِ دستیابی به بلوغ را از دست می‌دهند و پیچ‌خوردگیِ گره در گره غرایز اولیه است که در هر شخص مثل سگی هار در زنجیر قیدهای اجتماعی، اسیر نگه‌داشته شده است و در انتظار روزی به سر می‌برد که بتواند آن زنجیر را بگسلد؛\n\nو آن لحظه هنگامه هجوم فرا می‌رسد، هجوم و تجاوز به حقوق امثال خود"
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDavpnb2Wbuqlsedp8rxPBkKXHmaSEnHzkNDZGglD6ROXl1ZaDWF3DX-joPd6002284I8&usqp=CAU",
-      "title": "بیبری",
-      "readingTime": "1",
-      "author": "یرب",
-      "content": "وتنتونوتن"
-    },
-    {
-      "id": 11,
-      "imageUrl": "https://img1.taw-bio.ir/2023/16/thumbs/180x1681770181.jpeg",
-      "title": "ییزطیز",
-      "readingTime": "2",
-      "author": "سیزظسیز ",
-      "content": "سسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسسس"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-p1iuYWc-s7KPuseetGyAIPBzfGoTXNrLA&usqp=CAU",
+      "title": "The Art of Effective Communication: Enhancing Relationships in Daily Life",
+      "readingTime": "6",
+      "author": "Communication Expert Johnathan Price ",
+      "content": " Johnathan Price shares practical communication strategies to strengthen relationships in various aspects of life. This article focuses on the importance of effective communication skills for fostering better connections."
     }
   ]
 }
