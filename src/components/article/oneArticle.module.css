@@ -1,11 +1,16 @@
 .oneArticle {
     width: 15%;
     margin: 40px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 5px 5px 5px grey;
+        cursor: pointer;
 
 }
 
 .items {
     background-color: rgb(196, 195, 195);
     border: 3px solid rgb(110, 109, 109);
+}
+.cardImg {
+    height: 250px;
+    overflow: hidden;
 }

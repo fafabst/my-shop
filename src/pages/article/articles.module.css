@@ -3,3 +3,6 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
+.linkStyle {
+    text-decoration: none;
+}

@@ -17,7 +17,7 @@ const Articles = () => {
 
                 {articles.map((article) => (
                     <articleContext.Provider value={{ article }}>
-                        <Link to={`/article/${article.id}`}>
+                        <Link to={`/article/${article.id}`} className={styles.linkStyle}>
                             <Article key={article.id} />
                         </Link>
                     </articleContext.Provider>
