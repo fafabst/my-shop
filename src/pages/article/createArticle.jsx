@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import { useContext } from 'react';
-import { AppContext } from '../../App';
+import { AppContext } from '../../components/context/contextProvider';
 
 
 const CreateArticle = () => {

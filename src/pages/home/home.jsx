@@ -9,13 +9,11 @@ import { Link } from "react-router-dom";
 const { Meta } = Card;
 
 const Home = () => {
-    const { isLogin } = useContext(AppContext)
     return (
 
         <Layout>
             <div className={styles.homeWrapped}>
-                {isLogin ?
-                    <>
+
                         <Link to='./articles' className={styles.linkStyle}  >
                             <Card
                                 hoverable
@@ -53,8 +51,7 @@ const Home = () => {
                                 <Meta title="MAking Excuses" description="www.instagram.com" />
                             </Card>
                         </Link>
-                    </>
-                    : <h2>please login first</h2>}
+
             </div>
         </Layout>
 

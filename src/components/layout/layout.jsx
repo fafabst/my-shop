@@ -6,8 +6,9 @@ import Button from 'react-bootstrap/Button';
 import Login from '../login/login';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { AppContext } from '../../App';
+import { AppContext } from '../context/contextProvider';
 import styles from "./layout.module.css"
+import Spinner from '../spinner';
 
 
 const Layout = ({ children }) => {
@@ -38,10 +39,12 @@ const Layout = ({ children }) => {
                         </Link>
                     </Nav>
                     <Link to="/login" className={styles.layoutWrapped}>
-                        {isLogin ? <span>fatemeh bassati</span> :
-                            <Button variant="secondary" onClick={<Login />}>ورود</Button>}
+                        {isLogin ? (<span>hi FAFA</span>) : (<Button onClick={<Login />} variant="secondary" >LOGIN</Button>)}
+
+
+
                     </Link>
-                    <Button variant="secondary" onClick={() => setIsLogin(false)}>خروج</Button>
+                    <Button variant="secondary" onClick={() => setIsLogin(false)} >EXIT</Button>
                 </Container>
             </Navbar>
             <main>{children}</main>

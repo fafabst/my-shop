@@ -1,7 +1,7 @@
 import Layout from "../layout/layout";
 import { Card, Space } from 'antd';
 import { useContext } from "react";
-import { AppContext } from "../../App";
+import { AppContext } from '../context/contextProvider';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -23,13 +23,13 @@ const ShowArticle = () => {
         <div>
             <Layout>
                 <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
-                    <Card title="عنوان" size="small">
+                    <Card title="title" size="small">
                         <p>{article.title}</p>
                     </Card>
-                    <Card title="نویسنده" size="small">
+                    <Card title="author" size="small">
                         <p>{article.author}</p>
                     </Card>
-                    <Card title="متن مقاله" size="small">
+                    <Card title="context" size="small">
                         <p>{article.content}</p>
                     </Card>
                 </Space>
