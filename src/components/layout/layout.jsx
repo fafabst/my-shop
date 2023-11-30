@@ -34,15 +34,13 @@ const Layout = ({ children }) => {
                         <Link to="/makeExcuses" className={styles.layoutWrapped}>
                             <Nav.Link href="#features">Making Excuses</Nav.Link>
                         </Link>
-                        <Link to="/exercises" className={styles.layoutWrapped}>
+                        <Link to="/exercises" clsassName={styles.layoutWrapped}>
                             <Nav.Link href="#features">Exercises</Nav.Link>
                         </Link>
                     </Nav>
                     <Link to="/login" className={styles.layoutWrapped}>
-                        {isLogin ? (<span>hi FAFA</span>) : (<Button onClick={<Login />} variant="secondary" >LOGIN</Button>)}
-
-
-
+                        {isLogin ? (<span>hi FAFA</span>) :
+                            (<Button variant="secondary" >LOGIN</Button>)}
                     </Link>
                     <Button variant="secondary" onClick={() => setIsLogin(false)} >EXIT</Button>
                 </Container>

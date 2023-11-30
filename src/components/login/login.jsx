@@ -8,6 +8,10 @@ import { useState } from 'react';
 const Login = () => {
     const { isLogin, setIsLogin } = useContext(AppContext);
     // const [isLoading, setIsLoading] = useState(true);
+
+    const handleLogin = () => {
+        setIsLogin(true);
+    };
     return (
         <Layout>
             <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
@@ -19,7 +23,7 @@ const Login = () => {
                     <a href="!#">FORGET PASSWORD</a>
                 </div>
 
-                <MDBBtn className="mb-4" onClick={() => setIsLogin(true)}>LOGIN</MDBBtn>
+                <MDBBtn className="mb-4" onClick={handleLogin}>LOGIN</MDBBtn>
 
                 <div className="text-center">
                     <p>NOT REGISTERED? <a href="#!">REGISTER</a></p>
