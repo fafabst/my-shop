@@ -6,8 +6,6 @@ import Article from "../../components/article/article";
 import Layout from "../../components/layout/layout";
 import styles from './articles.module.css';
 
-export const articleContext = createContext();
-
 const Articles = () => {
 
     const { articles, setArticles, isLoading, setIsLoading } = useContext(AppContext);
@@ -16,18 +14,15 @@ const Articles = () => {
 
         <Layout>
             <div className={styles.articlesContainer}>
-
                 {isLoading ? (
                     <p>Loading...</p>
                 ) : articles.length === 0 ? (
                     <p>No articles available</p>
                 ) : (
-                    articles.map((article) => (
-                        <articleContext.Provider key={article.id} value={{ article }}>
-                            <Link to={`/article/${article.id}`} className={styles.linkStyle}>
-                                <Article />
-                            </Link>
-                        </articleContext.Provider>
+                            articles.map((article) => (
+                        <Link to={`/article/${article.id}`} className={styles.linkStyle}>
+                            <Article article={article} />
+                        </Link>
                     ))
                 )}
             </div>
