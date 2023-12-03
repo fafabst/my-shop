@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
                         <Link to="/makeExcuses" className={styles.layoutWrapped}>
                             <Nav.Link href="#features">Making Excuses</Nav.Link>
                         </Link>
-                        <Link to="/exercises" clsassName={styles.layoutWrapped}>
+                        <Link to="/exercises" className={styles.layoutWrapped}>
                             <Nav.Link href="#features">Exercises</Nav.Link>
                         </Link>
                     </Nav>

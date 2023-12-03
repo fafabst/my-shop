@@ -5,10 +5,13 @@ import { AppContext } from '../context/contextProvider';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ModalEditArticle from './modalEditArticle'
+import axios from "axios";
 
 const ShowArticle = () => {
     const params = useParams();
-    const { articles } = useContext(AppContext);
+    const { articles, setArticles } = useContext(AppContext);
+    const [deletedArticle, setDeletedArticle] = useState(false);
+
     const article = articles.filter((a) => a.id == params.id)[0];
 
     const [showModal, SetShowModal] = useState(false);
@@ -19,17 +22,23 @@ const ShowArticle = () => {
         SetShowModal(false)
     }
 
-    // const [article, setArticle] = useState([])
-    // useEffect(() => {
+    const deleteArticle = () => {
+        axios.delete(`http://localhost:8000/articles/${article.id}`).then((res) => {
+            const updatedArticles = articles.filter((a) => a.id !== article.id);
+            setArticles(updatedArticles);
+            setDeletedArticle(true);
 
-    //     axios.get(`http://localhost:8000/articles/${params.id}`).then((res) => {
-    //         setArticle(res.data)
-    //     })
-    // }, []);
+        }).catch((error) => {
+            console.error("error deleting article", error)
+        });
+    }
+
 
     return (
             <Layout>
-            <Space direction="vertical" size="middle" style={{ display: 'flex', margin: '20px' }}>
+            {deletedArticle && <p>article deleted</p>}
+            {article ?
+                <Space direction="vertical" size="middle" style={{ display: 'flex', margin: '20px' }}>
                 <img src={article.imageUrl} />
                     <Card title="title" size="small">
                         <p>{article.title}</p>
@@ -43,9 +52,12 @@ const ShowArticle = () => {
                 <div>
                     <Button style={{ margin: '10px 20px' }} type="primary" onClick={openModal}>Edit Article</Button>
                     {showModal && <ModalEditArticle closeModal={closeModal} />}
-                    <Button style={{ margin: '10px 20px' }} type="primary" danger>Delete Article</Button>
+
+                        <Button onClick={deleteArticle} style={{ margin: '10px 20px' }} type="primary" danger>Delete Article</Button>
                 </div>
             </Space>
+                :
+                <h1>there is no article, you can see other articles on articles page</h1>}
         </Layout>
     );
 }

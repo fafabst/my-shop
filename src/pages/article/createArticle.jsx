@@ -13,7 +13,7 @@ import { AppContext } from '../../components/context/contextProvider';
 const CreateArticle = () => {
     const { isLogin } = useContext(AppContext)
 
-    const [creArticle, setCreArticle] = useState([
+    const [newArticle, setNewArticle] = useState([
         {
             id: '',
             imageUrl: '',
@@ -25,18 +25,18 @@ const CreateArticle = () => {
     ]);
 
     const handleChange = (e) => {
-        setCreArticle((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+        setNewArticle((prev) => ({ ...prev, [e.target.name]: e.target.value }));
 
     }
 
     const handleCreateArticle = () => {
         axios.post("http://localhost:8000/articles", {
-            id: 5,
-            imageUrl: creArticle.imageUrl,
-            title: creArticle.title,
-            readingTime: creArticle.readingTime,
-            author: creArticle.author,
-            content: creArticle.content
+            id: 10,
+            imageUrl: newArticle.imageUrl,
+            title: newArticle.title,
+            readingTime: newArticle.readingTime,
+            author: newArticle.author,
+            content: newArticle.content
         }).catch(function (error) {
             console.log(error.toJSON());
         });
